@@ -1,7 +1,12 @@
 Nguyễn Duy Mạnh
 
 Lệnh build và run:
-docker compose up --build
+
+/gradlew test
+
+docker build -t campus-hub-backend .
+
+docker compose up -d
 
 URL để kiểm tra:
-http://localhost:8080
+http://localhost:8085
